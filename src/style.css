@@ -1,88 +1,131 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#menu {
+.menu {
     display: flex;
-    justify-content:start;
-}
-#homePage.imagen#homeImage{
+    justify-content: start;
+    align-items: center;
+    height: 100px;
     max-width: 100%;
+    align-items: center;
+    background-color: #000;
 }
 
-#logo {
-    width: 5%;
-    height: 5%;
-    border-radius: 50%;
-    margin-top: 2vh;
-    margin-left: 6vh;
-    margin-right: 18vw;
-    margin-bottom: 3vh;
+.headerLogo {
+    display: flex;
+    justify-content: flex-end;
+    width: 8%;
+}
+
+.headerLogo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
 
 .buttonMenu {
-    width: 10%;
-    height: 4%;
-    background: hsl(196, 78%, 67%);
-    border-radius: 10px;
-    font-size: 18px;
-    margin-top: 5vh; 
-    margin-left: 10vh;
-    margin-right: 10vh;
-    border-color: transparent;
-}
-
-body {
-    width:100%;
-    font-family:'Lato', sans-serif;
-    margin: 0 auto;
-    background-color: black;
-}
-
-#homePage#imagen img {
-    max-width: 100%;
-}
-
-#homePage {
     display: flex;
-    justify-content:center;
-    align-self: start;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 20vw);
 }
 
-#homeImage {
-    flex:1;
-    width: 30%;
-    height: 20%;
-    margin-left: 10vh;
-    margin-top: 6vh;
+.buttonMenu button {
+    background-color: #69C8EC;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 18px;
+    margin-left: 100px;
+    padding-inline: 18px;
+    padding-block: 4px;
+}
+
+.homePage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    height: calc(100vh - 100px);
+}
+
+.homeImage img {
+    height: 470px;
+    padding: 30px;
 }
 
 .homeText {
-    flex:2;
-    color: #ffffff ;
-    font-size: calc(1em + 0.1vw);
-    text-align: center;
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#footer {
+    color: white;
     display: flex;
-    justify-content:start;
-    margin-top:1vh;
-    margin-bottom:2vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 700px;
 }
 
-#socialMediaImage {
-    width: 10vh;
-    margin-right: 1vh;
+.homeText span {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
 }
 
-#contactInfo {
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #000;
+}
+
+.headerSocialMedia img {
+    height: 40px;
+}
+
+.headerContactInfo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
     text-align: center;
-    font-size:2%;
-    color: #ffffff ;
+}
+
+@media screen and (max-width: 700px) {
+    .headerLogo {
+        width: 15%;
+    }
+    .buttonMenu {
+        width: calc(100vw - 25vw);
+    }
+    .buttonMenu button {
+        margin-left: 20px;
+        padding-inline: 5px;
+    }
+    .homeText {
+        padding: 20px;
+    }
+    .homeText span {
+        margin-top: 5px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .homeImage img {
+        height: 340px;
+        padding: 10px;  
+    }
+}
+
+/* celular de tamaño normal */
+@media screen and (max-width: 500px) {
+
+}
+
+/* celular chiquito */
+@media screen and (max-width: 320px) {
+    .header {
+    flex-direction: column;
+    height: 200px;
+    }
 }

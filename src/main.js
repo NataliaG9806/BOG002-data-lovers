@@ -5,21 +5,14 @@ import data from './data/pokemon/pokemon.js';
 
 console.log(example, data);*/
 
-paginas ();
+document.getElementById("buttonHome").addEventListener('click', function () {
+    document.querySelector(".homePage").style.visibility = "visible";
+}, false)
 
-function paginas(){
-    const buttonCharacters = document.getElementById("buttonCharacters");
-    buttonCharacters.addEventListener('click', function(){
-        document.getElementById("homePage").style.visibility = "hidden";
-    }, false)
+document.getElementById("buttonCharacters").addEventListener('click', function () {
+    document.querySelector(".homePage").style.visibility = "hidden";
+}, false)
 
-    const buttonHome = document.getElementById("buttonHome");
-    buttonHome.addEventListener('click', function(){
-        document.getElementById("homePage").style.visibility = "visible";
-    }, false)
-
-    const buttonSeasons = document.getElementById("buttonSeasons");
-    buttonSeasons.addEventListener('click', function(){
-        document.getElementById("homePage").style.visibility = "hidden";
-    }, false)
-}
+document.getElementById("buttonSeasons").addEventListener('click', function () {
+    document.querySelector(".homePage").style.visibility = "hidden";
+}, false)

@@ -6,40 +6,41 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="src/Images/logo.png">
+  <link rel="stylesheet" href="style.css" />
   <title>Rick and Morty</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header id="menu">
-    <image id="logo" src="images/logo.png"></image>
-    <button id="buttonHome" class="buttonMenu">Home</button>
-    <button id="buttonCharacters" class="buttonMenu">Personajes</button>
-    <button id="buttonSeasons" class="buttonMenu">Temporadas</button>
-  </header>
-  <div id="homePage">
-    div id="imagen">
-    <div class="imagen">
-      <image id="homeImage" src="images/ricky and morty.jpg"></image>
+  <header class="menu">
+    <div class="headerLogo">
+      <image src="images/logo.png"></image>
     </div>
+    <div class="buttonMenu">
+      <button id="buttonHome">Home</button>
+      <button id="buttonCharacters">Personajes</button>
+      <button id="buttonSeasons">Temporadas</button>
+    </div>
+  </header>
+  <div class="homePage">
+    <div class="homeImage">
+      <image src="images/ricky and morty.jpg"></image>
     </div>
     <div class="homeText">
-      <p>Rick es un brillante científico un tanto borracho que secuestra a su irritable nieto adolescente Morty para
-        vivir aventuras en otros mundos y en dimensiones alternativas.</p> <br>
-      <p>Protagonistas:Justin Roiland,Chris Parnell,Spencer Grammer.</P>
-      <p>Creado por:Dan Harmon,Justin Roiland</p>
+      <span>Rick es un brillante científico un tanto borracho que secuestra a su irritable nieto adolescente 
+        Morty para vivir aventuras en otros mundos y en dimensiones alternativas.</span>
+      <span>Protagonista: Justin Roiland, Chris Parnell, Spencer Grammer.</span>
+      <span>Creado por: Dan Harmon, Justin Roiland</span>
     </div>
   </div>
-  <footer id="footer">
-    <image id="socialMediaImage" src="images/socialMedia.jpg"></image>
-    <div id="contactInfo">
-      <p>(+51) 123 456 7890</p>
-      <p>serviciosrym@gmail.com</p>
-      <p>Bogota, Colombia</p>
+  <footer class="footer">
+    <div class="headerSocialMedia">
+      <image src="images/socialMedia.jpg"></image>
+    </div>
+    <div class="headerContactInfo">
+      <span>(+51) 123 456 7890</span>
+      <span>serviciosrym@correo.com</span>
+      <span>Bogota, Colombia</span>
     </div>
   </footer>
   <script src="main.js" type="module"></script>
