@@ -146,7 +146,7 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
-      height: calc(100vh - 80%)
+      height: calc(100vh - 10vh)
     }
     .homeText {
       width: 90%;
@@ -157,7 +157,7 @@
 }
 
 /* celular chiquito */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .menu{
     display: flex;
     justify-content: center;
@@ -175,14 +175,17 @@
   }
   .buttonMenu button{
     width:30%;
+    font-size: 13px;
   }
   .homePage {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content:start;
+    height: calc(100vh + 7vh);
   }
   .homeText {
     width: 90%;
+    font-size: 0px;
   }
   .footer {
     display: flex;
