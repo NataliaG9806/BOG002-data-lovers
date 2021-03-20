@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,12 +31,15 @@
     justify-content: center;
     align-items: center;
     width: calc(100vw - 20vw);
+    color: #000;
 }
 
 .buttonMenu button {
     background-color: #69C8EC;
     border-radius: 10px;
     border-color: transparent;
+    text-align: center;
+    width:140px;
     font-size: 18px;
     margin-left: 100px;
     padding-inline: 18px;
@@ -45,7 +48,7 @@
 
 .homePage {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #000;
     height: calc(100vh - 100px);
@@ -77,6 +80,7 @@
     align-items: center;
     align-content: center;
     background-color: #000;
+    border-color: transparent;
 }
 
 .headerSocialMedia img {
@@ -97,10 +101,12 @@
         width: 15%;
     }
     .buttonMenu {
+        justify-content: space-around;
         width: calc(100vw - 25vw);
     }
     .buttonMenu button {
-        margin-left: 20px;
+        width:30%;
+        margin-left: 0%;
         padding-inline: 5px;
     }
     .homeText {
@@ -119,13 +125,71 @@
 
 /* celular de tamaño normal */
 @media screen and (max-width: 500px) {
-
+    .menu{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .headerLogo {
+      justify-content: center;
+      margin-bottom: 3%;
+      margin-top: 3%;
+    }
+    .buttonMenu {
+      width: 100%;
+      justify-content: space-evenly;
+    }
+    .buttonMenu button{
+      width:28%;
+    }
+    .homePage {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: calc(100vh - 80%)
+    }
+    .homeText {
+      width: 90%;
+    }
+    .headerContactInfo {
+      padding:10px;
+    }
 }
 
 /* celular chiquito */
-@media screen and (max-width: 320px) {
-    .header {
+@media screen and (max-width: 360px) {
+  .menu{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    height: 200px;
-    }
+  }
+  .headerLogo {
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  .buttonMenu {
+    width: 100%;
+    margin-left: 0%;
+    justify-content: space-evenly;
+  }
+  .buttonMenu button{
+    width:30%;
+  }
+  .homePage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .homeText {
+    width: 90%;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }   
+  .headerContactInfo {
+    padding: 5px;
+  } 
 }
