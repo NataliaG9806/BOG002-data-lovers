@@ -74,6 +74,51 @@
     text-align: justify;
 }
 
+.filtros {
+  display:flex;
+  background-color: #000;
+}
+
+.az {
+  background-color: #A6EEE6;
+  border-radius: 10px;
+  border-color: transparent;
+  text-align: center;
+  width:140px;
+  font-size: 18px;
+  margin-left: 135px;
+  padding-inline: 18px;
+  padding-block: 4px;
+}
+
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000;
+}
+
+.card {
+  width: 21%;
+  text-align: center;
+}
+
+.cardImage {  
+  background-color:transparent;
+  border-color: transparent; 
+}
+
+.cardImage img {
+  width: 85%;
+  border-radius: 22px;
+  margin-top: 8%;
+}
+
+.nameCard {
+  color: #fff;
+  font-size: 18px;
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
@@ -95,6 +140,8 @@
     padding: 20px;
     text-align: center;
 }
+
+
 
 @media screen and (max-width: 700px) {
     .headerLogo {

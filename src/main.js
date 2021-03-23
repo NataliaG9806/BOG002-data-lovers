@@ -1,18 +1,26 @@
-/*import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+//import { example } from './data.js';
+import data from './data/rickandmorty/rickandmorty.js';
 
-console.log(example, data);*/
-/*
-document.getElementById("buttonHome").addEventListener('click', function () {
-    document.querySelector(".homePage").style.visibility = "visible";
-}, false)
+const rickandmorty = async () => {
+const container = document.querySelector('.container') ;
+container.innerHTML = data.results.map((item) => `
+    <div class="card">
+        <button class="cardImage">
+            <img src="${item.image}" />
+        </button>
+        <h1 class="nameCard">${item.name}</h1>
+    </div>
+    `).join("");
 
-document.getElementById("buttonCharacters").addEventListener('click', function () {
-    document.querySelector(".homePage").style.visibility = "hidden";
-}, false)
-
-document.getElementById("buttonSeasons").addEventListener('click', function () {
-    document.querySelector(".homePage").style.visibility = "hidden";
-}, false)*/
+document.querySelector(".az").addEventListener("click", function () {
+        container.innerHTML = data.results.map((item) => `
+            <div class="card">
+                <button class="cardImage">
+                    <img src="${item.image}" />
+            </button>
+            <h1 class="nameCard">${item.name}</h1>
+            </div>
+        `).join("");        
+},false);
+}
+rickandmorty();
