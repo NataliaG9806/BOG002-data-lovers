@@ -7,66 +7,68 @@
   <link rel="stylesheet" href="style.css" />
   <title>Rick and Morty</title>
 </head>
+
 <body>
   <header class="menu">
     <div class="headerLogo">
       <image src="images/logo.png"></image>
     </div>
     <div class="buttonMenu">
-      <button id="buttonHome"target="_blank"><a href="./index.html">Home</a></button>
-      <button id="buttonCharacters" target="_blank" ><a href="./characters.html">Personajes</a></button>
+      <button id="buttonHome" target="_blank"><a href="./index.html">Home</a></button>
+      <button id="buttonCharacters" target="_blank"><a href="./characters.html">Personajes</a></button>
       <button id="buttonSeasons">Temporadas</button>
- <!---<button class="button-second-page" target="_blank"><a href="./page3.html">RESERVAR</a></button>--->
+      <!---<button class="button-second-page" target="_blank"><a href="./page3.html">RESERVAR</a></button>--->
     </div>
   </header>
-<div class="filters">
-  <form class="searchLetter">
-    <input class="az" value="" placeholder="A-Z"/>
-    <button type="submit" class="buttonSearch">Buscar</button>
-  </form>
+  <div class="filters">
+    <form class="searchLetter">
+      <input class="az" value="" placeholder="A-Z" />
+      <button type="submit" class="buttonSearch">Buscar</button>
+    </form>
 
-  <select class="Specie" type="submit"> 
-    <option value="Especies">Especies</option>
-    <option value="Human" >Humanos</option>
-    <option value="Humanoid" >Humanoides</option>
-    <option value="Alien" >Aliens</option>
-    <option value="unknown" >Desconocidos</option>
-    <option value="Poopybutthole" >Poopybuttholes</option>
-    <option value="Cronenberg" >Cronenbergs</option>
-    <option value="Mytholog" >Mitologicos</option>
-    <option value="Animal" >Animales</option>
-    <option value="Vampire" >Vampiros</option>
-    <option value="Robot">Robots</option>
-    <option value="Disease" >Enfermedades</option>
-    <option value="Parasite" >Parasitos</option>
-  </select>
-</div>
-
-<div class="popUpWrapper" style="display: none;">
-  <div class="popUp">
-    <button class="closePopUp">X</button>
+    <select class="Specie" type="submit">
+      <option value="Especies">Especies</option>
+      <option value="Human">Humanos</option>
+      <option value="Humanoid">Humanoides</option>
+      <option value="Alien">Aliens</option>
+      <option value="unknown">Desconocidos</option>
+      <option value="Poopybutthole">Poopybuttholes</option>
+      <option value="Cronenberg">Cronenbergs</option>
+      <option value="Mytholog">Mitologicos</option>
+      <option value="Animal">Animales</option>
+      <option value="Vampire">Vampiros</option>
+      <option value="Robot">Robots</option>
+      <option value="Disease">Enfermedades</option>
+      <option value="Parasite">Parasitos</option>
+    </select>
   </div>
-</div>
+
+  <div class="popUpWrapper" style="display: none;">
+    <div class="popUp">
+      <button class="closePopUp">X</button>
+    </div>
+  </div>
 
   <div class="container">
   </div>
 
   <div class="paginacion">
-    <button class="less"><</button>
-    <button class="more">></button>  
+    <button class="less">
+      <</button> <button class="more">>
+    </button>
   </div>
 
-    <footer class="footer">
-      <div class="headerSocialMedia">
-        <image src="images/socialMedia.jpg"></image>
-      </div>
-      <div class="headerContactInfo">
-        <span>(+51) 123 456 7890</span>
-        <span>serviciosrym@correo.com</span>
-        <span>Bogota, Colombia</span>
-      </div>
-    </footer>
-    <script src="main.js" type="module"></script>
+  <footer class="footer">
+    <div class="headerSocialMedia">
+      <image src="images/socialMedia.jpg"></image>
+    </div>
+    <div class="headerContactInfo">
+      <span>(+51) 123 456 7890</span>
+      <span>serviciosrym@correo.com</span>
+      <span>Bogota, Colombia</span>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
 </body>
 
 </html>
