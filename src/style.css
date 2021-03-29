@@ -27,7 +27,6 @@
 .buttonMenu {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: calc(100vw - 20vw);
     color: #000;
     
@@ -93,7 +92,7 @@ a{
   text-align: center;
   width:140px;
   font-size: 16px;
-  margin-left: 100px;
+  margin-left: 130px;
   padding: 4px 2px 4px 2px;
 }
 
@@ -191,6 +190,7 @@ a{
 @media screen and (max-width: 700px) {
     .headerLogo {
         width: 15%;
+        margin-left: 20px;
     }
     .buttonMenu {
         justify-content: space-around;
@@ -213,6 +213,9 @@ a{
         height: 340px;
         padding: 10px;  
     }
+    .az{
+      margin-left:70px;
+    }
 }
 
 /* celular de tamaño normal */
@@ -221,6 +224,7 @@ a{
       display: flex;
       justify-content: center;
       flex-direction: column;
+      height: 170px;
     }
     .headerLogo {
       justify-content: center;
@@ -246,8 +250,21 @@ a{
     .headerContactInfo {
       padding:10px;
     }
-}
+    .Specie{
+      margin-left: 0px;
+      margin-right: 10px;
+      height: 40px;
 
+    }
+    .az{
+      margin-left: 10px;
+      margin-bottom: 10px
+    }
+    .buttonSearch{
+      margin-left: 10px;
+      margin-bottom: 2px;
+    }
+  }
 /* celular chiquito */
 @media screen and (max-width: 380px) {
   .menu{
