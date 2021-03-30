@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./botones.css"/>
   <title>Rick and Morty</title>
 </head>
 
@@ -17,17 +18,13 @@
       <button id="buttonHome" target="_blank"><a href="./index.html">Home</a></button>
       <button id="buttonCharacters" target="_blank"><a href="./characters.html">Characters</a></button>
       <button id="buttonSeasons">Seasons</button>
-      <!---<button class="button-second-page" target="_blank"><a href="./page3.html">RESERVAR</a></button>--->
     </div>
   </header>
   <div class="filters">
-    <button class="organizarAZ">A-Z</button>
-    <button class="organizarZA">Z-A</button>
-    <form class="searchLetter">
-      <input class="az" value="" placeholder="A-Z" />
-      <button type="submit" class="buttonSearch">Search</button>
-    </form>
-
+    <div class="buttonGroup"> <button class="organizarAZ">A-Z</button>
+      <button class="organizarZA">Z-A</button>
+  </div>
+  <div class="buttonSpecie">
     <select class="Specie" type="submit">
       <option value="Especies">Species</option>
       <option value="Human">Human</option>
@@ -45,6 +42,12 @@
     </select>
 
     <button class="calculate">Calcule</button>
+  </div>
+    
+    <form class="searchLetter">
+      <input class="az" value="" placeholder="A-Z" />
+      <button type="submit" class="buttonSearch">Search</button>
+    </form>
   </div>
 
   <div class="container">
