@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./botones.css"/>
+  <link rel="stylesheet" href="./responsive.css"/>
+  <title>Rick and Morty</title>
+</head>
+
+<body>
+  <header class="menu">
+    <div class="headerLogo">
+      <image src="images/logo.png"></image>
+    </div>
+    <div class="buttonMenu">
+      <button id="buttonHome" target="_blank"><a href="./index.html">Home</a></button>
+      <button id="buttonCharacters" target="_blank"><a href="./characters.html">Characters</a></button>
+      <button id="buttonSeasons">Seasons</button>
+    </div>
+  </header>
+  <div class="filters">
+    <div class="buttonGroup"> <button class="organizarAZ">A-Z</button>
+      <button class="organizarZA">Z-A</button>
+  </div>
+  <div class="buttonSpecie">
+    <select class="Specie" type="submit">
+      <option value="Especies">Species</option>
+      <option value="Human">Human</option>
+      <option value="Humanoid">Humanoid</option>
+      <option value="Alien">Aliens</option>
+      <option value="unknown">Unknowns</option>
+      <option value="Poopybutthole">Poopybuttholes</option>
+      <option value="Cronenberg">Cronenbergs</option>
+      <option value="Mytholog">Mythologics</option>
+      <option value="Animal">Animals</option>
+      <option value="Vampire">Vampires</option>
+      <option value="Robot">Robots</option>
+      <option value="Disease">Diseases</option>
+      <option value="Parasite">Parasites</option>
+    </select>
+
+    <button class="calculate">Calcule</button>
+  </div>
+    
+    <form class="searchLetter">
+      <input class="az" value="" placeholder="A-Z" />
+      <button type="submit" class="buttonSearch">Search</button>
+    </form>
+  </div>
+
+  <div class="container">
+  </div>
+
+  <div class="popUpWrapper" style="display: none;">
+    <div class="popUp">
+      <div class="popUp-title">
+        <p>Name: </p>
+        <p class="name"></p>
+      </div>
+      <div class="popUp-info">
+        <div class="popUp-containerInfo">
+        <span>Specie: 
+          <p class="species"></p>
+        </span>
+        <span>Origin: 
+        <p class="origin"></p>
+      </span>
+        <span>Location: 
+        <p class="location"></p>
+        </span>
+        </div>
+      <div class="popUp-containerImage">
+        <img src="Images/logo.png" class="image"/>
+      </div>
+      </div>
+      <button class="closePopUp">X</button>
+    </div>
+  </div>
+
+  <div class="popUpWrapper" id="popUpWrapperCalculate" style="display: none;">
+    <div class="popUp" id="popUpCalculate">
+     <div class="popUpCalculate-container">
+      <div >
+        <p>Total Characters: </p>
+        <p class="Total"></p>
+      </div>
+      <div>
+        <p>Alive: </p>
+        <p class="Alive"></p>
+      </div>
+      <div>
+        <p>Dead: </p>
+        <p class="Dead"></p>
+      </div>
+      <div>
+        <p>unknown: </p>
+        <p class="unknown"></p>
+     </div>
+      </div>
+      <button class="closePopUp" id="ClosePopUpWrapperCalculate">X</button>
+    </div>
+  </div>
+
+  <div class="paginacion">
+    <button class="less"><</button> 
+    <button class="more">></button>
+  </div>
+
+  <footer class="footer">
+    <div class="headerSocialMedia">
+      <image src="images/socialMedia.jpg"></image>
+    </div>
+    <div class="headerContactInfo">
+      <span>(+51) 123 456 7890</span>
+      <span>servicesr&m@email.com</span>
+      <span>Bogota, Colombia</span>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>

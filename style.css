@@ -1,0 +1,187 @@
+@importurl('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family:'Roboto', sans-serif;
+}
+.menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+    max-width: 100%;
+    align-items: center;
+    background-color: #000;
+    text-decoration: none;
+}
+.headerLogo {
+    display: flex;
+    justify-content: flex-end;
+    width: 8%;
+}
+.headerLogo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+a{
+  text-decoration: none;
+}
+
+.homePage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    height: calc(100vh - 100px);
+}
+
+.homeImage img {
+    height: 470px;
+    padding: 30px;
+}
+
+.homeText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 700px;
+}
+
+.homeText span {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.filters {
+  display:flex;
+  justify-content: space-around;
+  background-color: #000;
+}
+
+.searchLetter {
+  background-color: #000;
+}
+
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000;
+}
+
+.card {
+  width: 21%;
+  text-align: center;
+}
+
+.cardImage {  
+  background-color:transparent;
+  border-color: transparent; 
+}
+
+.cardImage img {
+  width: 85%;
+  border-radius: 22px;
+  margin-top: 8%;
+}
+
+.nameCard {
+  color: #fff;
+  font-size: 18px;
+}
+
+.popUpWrapper {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popUp {
+  max-width: 500px;
+  height: 200px;
+  background: white;
+  margin: 10% auto;
+  padding: 20px;
+  position: relative;
+  border-radius: 22px;
+  background: #BE93C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+.popUp-title{
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+.popUp-containerInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.popUp-info{
+  display: flex;
+  justify-content: space-around;
+}
+.popUp-containerImage{
+  order: -1;
+  width: 125px;
+  height: 125px;
+}
+.popUp-containerImage img{
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+
+}
+p{
+  display: inline-block;
+}
+span{
+  display: block;
+}
+.popUpCalculate-container{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#popUpCalculate{
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #000;
+    border-color: transparent;
+}
+
+.headerSocialMedia img {
+    height: 40px;
+}
+
+.headerContactInfo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
