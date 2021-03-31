@@ -1,0 +1,125 @@
+@media screen and (max-width: 700px) {
+    .headerLogo {
+        width: 15%;
+        margin-left: 20px;
+    }
+    .buttonMenu {
+        width: calc(100vw - 25vw);
+    }
+    .buttonMenu button {
+        width:30%;
+        margin-left: 0%;
+    }
+    .homeText {
+        padding: 20px;
+    }
+    .homeText span {
+        margin-top: 5px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .homeImage img {
+        height: 340px;
+        padding: 10px;  
+    }
+    .az{
+      margin-left:70px;
+    }
+}
+
+/* celular de tamaño normal */
+@media screen and (max-width: 500px) {
+    .menu{
+      display: flex;
+      height: 170px;
+    }
+    .headerLogo {
+      justify-content: center;
+      margin-bottom: 3%;
+      margin-top: 3%;
+    }
+    .buttonMenu {
+      width: 100%;
+    }
+    .buttonMenu button{
+      width:28%;
+    }
+    .homePage {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: calc(100vh - 10vh)
+    }
+    .homeText {
+      width: 90%;
+    }
+    .headerContactInfo {
+      padding:10px;
+    }
+    .Specie{
+      margin-left: 0px;
+      margin-right: 10px;
+      height: 40px;
+
+    }
+    .az{
+      margin-left: 10px;
+      margin-bottom: 10px
+    }
+    .buttonSearch{
+      margin-left: 10px;
+      margin-bottom: 2px;
+    }
+  }
+
+/* celular chiquito */
+@media screen and (max-width: 380px) {
+
+  .buttonGroup,.buttonSpecie{
+    display: flex;
+
+  }
+  .menu{
+    display: flex;
+  }
+  .Specie{
+    margin-right: 0;
+  }
+  .filters{
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+  }
+  .headerLogo {
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  .buttonMenu {
+    width: 100%;
+    margin-left: 0%;
+    flex-wrap: wrap;
+  }
+  .buttonMenu button{
+    width:30%;
+    font-size: 13px;
+  }
+  .homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    height: calc(100vh + 7vh);
+  }
+  .homeText {
+    width: 90%;
+    font-size: 0px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }   
+  .headerContactInfo {
+    padding: 5px;
+  } 
+}

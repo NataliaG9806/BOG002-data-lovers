@@ -19,6 +19,7 @@ function complet() {
 
 //funcion de paginacion
 function page() {
+ // console.log(dataSearch);
   //console.log("entra page");
   let dataSlice = dataSearch;
   container.innerHTML = dataSlice.slice(start, end).map((item) => `
@@ -125,7 +126,7 @@ function calculate (){
   document.querySelector(".Alive").textContent = (+valueCalculate.Alive+ " %");
   document.querySelector(".Dead").textContent = (+valueCalculate.Dead+ " %");
   document.querySelector(".unknown").textContent = (+valueCalculate.unknown+ " %");
-  //console.log(valueCalculate)
+  //console.log(valueCalculate);
 
   document.querySelector("#ClosePopUpWrapperCalculate").addEventListener("click", hidePopUp)
 
