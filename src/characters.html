@@ -55,24 +55,25 @@
 
   <div class="popUpWrapper" style="display: none;">
     <div class="popUp">
-      <div>
+      <div class="popUp-title">
         <p>Name: </p>
         <p class="name"></p>
       </div>
-      <div>
-        <p>Specie: </p>
-        <p class="species"></p>
-      </div>
-      <div>
-        <p>Origin: </p>
+      <div class="popUp-info">
+        <div class="popUp-containerInfo">
+        <span>Specie: 
+          <p class="species"></p>
+        </span>
+        <span>Origin: 
         <p class="origin"></p>
-      </div>
-      <div>
-        <p>Location: </p>
+      </span>
+        <span>Location: 
         <p class="location"></p>
-      </div>
-      <div>
+        </span>
+        </div>
+      <div class="popUp-containerImage">
         <img src="" class="image"/>
+      </div>
       </div>
       <button class="closePopUp">X</button>
     </div>
@@ -80,7 +81,8 @@
 
   <div class="popUpWrapper" id="popUpWrapperCalculate" style="display: none;">
     <div class="popUp" id="popUpCalculate">
-      <div>
+     <div class="popUpCalculate-container">
+      <div >
         <p>Total Characters: </p>
         <p class="Total"></p>
       </div>
@@ -95,6 +97,7 @@
       <div>
         <p>unknown: </p>
         <p class="unknown"></p>
+     </div>
       </div>
       <button class="closePopUp" id="ClosePopUpWrapperCalculate">X</button>
     </div>

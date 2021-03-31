@@ -1,4 +1,12 @@
-.buttonMenu button {
+@importurl('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body{
+  font-family:'Roboto', sans-serif;}
+
+.buttonMenu button 
+{
+  font-family:'Roboto', sans-serif;
+  font-weight: 600;
     background-color: #69C8EC;
     border-radius: 10px;
     border-color: transparent;
@@ -9,6 +17,7 @@
     text-decoration: none;
 }
 .az {
+  font-family:'Roboto', sans-serif;
     background-color: #B7E4F9FF;
     border-radius: 10px;
     border-color: transparent;
@@ -48,7 +57,6 @@
     font-size: 18px;
     padding: 4px 2px 4px 2px;
   }
-  
   .buttonSearch 
   {
     background-color: #A6EEE6;
@@ -65,5 +73,12 @@
     flex-wrap: wrap;
     width: calc(100vw - 20vw);
     color: #000;
-    
+}
+.closePopUp{
+  position: absolute;
+  top:15px;
+  right:15px;
+  padding: 5px;
+  outline: 1px solid #A6EEE6;
+  border: none;
 }
