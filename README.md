@@ -28,5 +28,46 @@
 ##
 ## ***Prototipo baja fidelidad***
 
-En la siguiente imagen podemos observar el home de la pagina web
-<img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/final.jpg?raw=true" width="500">
+### En la siguientes imagen podemos observar el prototipo de baja fidelidad de la pagina web
+###
+### ***Home***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Home.jpg?raw=true" width="500">
+
+### ***Home Responsive***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Home%20Responsive.jpg?raw=true" width="500">
+
+### ***Characters***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%201.jpg?raw=true" width="500">
+
+### ***Characters filtros***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%202.jpg?raw=true" width="500">
+
+### ***Characters Informacion especifica del personaje***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%203.jpg?raw=true" width="500">
+
+### ***Characters Responsive***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%20responsive.jpg?raw=true" width="500">
+
+## ***Prototipo alta fidelidad***
+
+### En la siguientes imagen podemos observar el prototipo de alta fidelidad de la pagina web
+###
+### ***Home***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Home.jpg?raw=true" width="500">
+
+### ***Home Responsive***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Home%20Responsive.jpg?raw=true" width="500">
+
+### ***Characters***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%201.jpg?raw=true" width="500">
+
+### ***Characters filtros***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%202.jpg?raw=true" width="500">
+
+### ***Characters Informacion especifica del personaje***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%203.jpg?raw=true" width="500">
+
+### ***Characters Responsive***
+<img src="https://github.com/NataliaG9806/BOG002-data-lovers/blob/main/src/Images/Characters%20responsive.jpg?raw=true" width="500">
+
+

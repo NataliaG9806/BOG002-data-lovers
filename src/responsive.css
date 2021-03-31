@@ -70,6 +70,10 @@
       margin-left: 10px;
       margin-bottom: 2px;
     }
+    .cardImage img {
+        width: 50px;
+        border-radius:22px;
+        margin-top: 8%;
   }
 
 /* celular chiquito */
