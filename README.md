@@ -3,7 +3,7 @@
  <p style="text-align: justify;"> Esta página web está pensada para todos aquellos fans de la serie animada para adultos Rick and Morty. También se tienen en cuenta aquellas personas que no conocen mucho de la serie y quisieran saber más información. En esta serie podemos encontrar aproximadamente 493 personajes, por lo que se hace muy tedioso mirar cada uno ellos, en nuestra página web puedes generar dos tipos de filtros para buscarlos más fácil: por letra inicial del nombre o por especie. Puedes ordenar la información filtrada por su nombre de la A-Z o de la Z-A, además mirar datos estadísticos de los personajes filtrados de cuantos estas vivos, muertos o estado desconocido. Si quieres saber información más específica sobre cualquier personaje, solo basta con darle clic y te aparecerá un Pop Up con información relevante. </p>
 
 # ***Historias de usuario***
-##
+
 ## ***Historia de usuario 1: Todos los personajes***
 #### **Yo Como:** Usuario
 #### **Quiero:** Visualizar todos los personajes
