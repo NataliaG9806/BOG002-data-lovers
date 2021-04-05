@@ -25,7 +25,7 @@
 #### **Para:** Ver los personajes relacionados a cada especie
 
 # **Prototipos**
-##
+
 ## ***Prototipo baja fidelidad***
 
 ### En la siguientes imagen podemos observar el prototipo de baja fidelidad de la pagina web
